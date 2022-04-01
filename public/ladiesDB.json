@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "girls-1",
+        "price": 200,
+        "image": "https://i.ibb.co/JFS4jb2/five-hundred-girls-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "girls-2",
+        "price": 200,
+        "image": "https://i.ibb.co/XzQMLdT/five-hundred-girls-2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "girls-3",
+        "price": 200,
+        "image": "https://i.ibb.co/S0GwsZ2/five-hundred-girls-3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "girls-4",
+        "price": 200,
+        "image": "https://i.ibb.co/xX9KMYJ/five-hundred-girls-4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "girls-5",
+        "price": 200,
+        "image": "https://i.ibb.co/vdJXr63/five-hundred-ladies.jpg"
+    },
+    {
+        "id": 6,
+        "name": "girls-6",
+        "price": 200,
+        "image": "https://i.ibb.co/wwdNwJR/five-hundred-girls.jpg"
+    },
+    {
+        "id": 7,
+        "name": "girls-7",
+        "price": 200,
+        "image": "https://i.ibb.co/jgVTxDZ/ladies-dress-4.jpg"
+    },
+    {
+        "id": 8,
+        "name": "girls-8",
+        "price": 200,
+        "image": "https://i.ibb.co/kSMRmrN/ladies-dress-3.jpg"
+    },
+    {
+        "id": 9,
+        "name": "girls-9",
+        "price": 200,
+        "image": "https://i.ibb.co/wBrTvGc/ladies-dress-2.jpg"
+    },
+    {
+        "id": 10,
+        "name": "girls-10",
+        "price": 200,
+        "image": "https://i.ibb.co/ZND5JNK/ladies-dress-1.jpg"
+    }
+]
