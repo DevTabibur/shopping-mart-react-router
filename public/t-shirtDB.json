@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "t-shirt-3",
+        "price": 120,
+        "image": "https://i.ibb.co/XsxvXSJ/t-shirt-3.webp"
+    },
+    {
+        "id": 2,
+        "name": "t-shirt-15",
+        "price": 120,
+        "image": "https://i.ibb.co/fkQxXDZ/t-shirt-15.webp"
+    },
+    {
+        "id": 3,
+        "name": "t-shirt-4",
+        "price": 120,
+        "image": "https://i.ibb.co/0j60bcf/t-shirt-4.webp"
+    },
+    {
+        "id": 4,
+        "name": "t-shirt-6",
+        "price": 120,
+        "image": "https://i.ibb.co/vZdf8bD/t-shirt-6.webp"
+    },
+    {
+        "id": 5,
+        "name": "t-shirt-7",
+        "price": 120,
+        "image": "https://i.ibb.co/6Wq9XdX/t-shirt-7.webp"
+    },
+    {
+        "id": 6,
+        "name": "t-shirt-8",
+        "price": 120,
+        "image": "https://i.ibb.co/2NDYvHT/t-shirt-8.webp"
+    },
+    {
+        "id": 7,
+        "name": "t-shirt-21",
+        "price": 120,
+        "image": "https://i.ibb.co/LRW9tS9/t-shirt-21.webp"
+    },
+    {
+        "id": 8,
+        "name": "t-shirt-12",
+        "price": 120,
+        "image": "https://i.ibb.co/3f2Mj0Y/t-shirt-12.webp"
+    },
+    {
+        "id": 9,
+        "name": "t-shirt-25",
+        "price": 120,
+        "image": "https://i.ibb.co/M2wWYTN/t-shirt-25.webp"
+    },
+    {
+        "id": 10,
+        "name": "t-shirt-18",
+        "price": 120,
+        "image": "https://i.ibb.co/DwWn5pK/t-shirt-18.webp"
+    }
+]
