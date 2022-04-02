@@ -5,17 +5,12 @@ import logo from "../../images/logo.png";
 import "./Header.css";
 import { CgProfile } from "react-icons/cg";
 import { BsCart2, BsHeart } from "react-icons/bs";
+import { Routes, Route, Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="header">
-      <Navbar
-        className="py-3"
-        collapseOnSelect
-        expand="lg"
-        bg="light"
-        variant="light"
-      >
+    <>
+      <Navbar className="py-3 header" collapseOnSelect expand="lg">
         <Container>
           <Navbar.Brand href="#home">
             <div className="header-logo">
@@ -27,32 +22,30 @@ const Header = () => {
 
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mx-auto fw-bold">
-              <Nav.Link href="/" className="text-black">HOME</Nav.Link>
-              <Nav.Link href="/blog" className="text-black">BLOG</Nav.Link>
-              <Nav.Link href="/men" className="text-black">MEN</Nav.Link>
-              <Nav.Link href="/women" className="text-black">WOMEN</Nav.Link>
-              <Nav.Link href="/kids" className="text-black">KIDS</Nav.Link>
-              <Nav.Link href="/contact" className="text-black">CONTACT</Nav.Link>
-              <Nav.Link href="/about" className="text-black">ABOUT</Nav.Link>
+              <Link className="header-links" to="/home">HOME</Link>
+              <Link className="header-links" to="/blog">BLOG</Link>
+              <Link className="header-links" to="/men">MEN</Link>
+              <Link className="header-links" to="/women">WOMEN</Link>
+              <Link className="header-links" to="/kids">KIDS</Link>
+              <Link className="header-links" to="/contact">CONTACT</Link>
+              <Link className="header-links" to="/about">ABOUT</Link>
             </Nav>
 
             <Nav className="d-flex">
-
               <Nav.Link href="/profile">
-                <CgProfile className="header-icons"/>
+                <CgProfile className="header-icons" />
               </Nav.Link>
               <Nav.Link href="/wishlist">
-                <BsHeart className="header-icons"  />
+                <BsHeart className="header-icons" />
               </Nav.Link>
               <Nav.Link href="/cart">
                 <BsCart2 className="header-icons" />
               </Nav.Link>
-
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </div>
+    </>
   );
 };
 

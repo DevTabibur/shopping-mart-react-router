@@ -1,6 +1,7 @@
 .header{
     border-bottom: 4px solid #e91e63;
     width: 100%;
+    background-color: #fff;
 }
 .header-logo{
     position: relative;
@@ -21,6 +22,18 @@
     transition: .5s;
 }
 .header-icons:hover{
+    color: #e91e63;
+
     position: relative;
     transform: scale(1.5);
+}
+.header-links{
+    text-decoration: none;
+    margin-right: 22px;
+    color: #000;
+    font-weight: bold;
+    transition: .4s;
+}
+.header-links:hover{
+    color: #e91e63;
 }
