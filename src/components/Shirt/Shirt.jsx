@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from "react";
 import { Button, Card, CardImg } from "react-bootstrap";
 import useShirt from "../../Hooks/useShirt";
@@ -24,13 +25,10 @@ const ShowShirt = ({ shirt }) => {
   return (
     <div className=" col-md-4 d-flex justify-content-center">
       <Card className="column" style={{ width: "22rem", height: "27rem", marginBottom:"40px" }}>
-        <Card.Img className="shirt-img" variant="top" src={shirt.image} />
+        <Card.Img className="img" variant="top" src={shirt.image} />
         <Card.Body>
           <Card.Title><h5>Name: {shirt.name}</h5></Card.Title>
           <h6>Price: ${shirt.price}</h6>
-
-          {/* <Card.Text>
-          </Card.Text> */}
           <Button variant="primary">Add to Cart</Button>
         </Card.Body>
       </Card>
