@@ -1,37 +1,53 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import logo from "../../images/logo.png";
+import "./Header.css";
+import { CgProfile } from "react-icons/cg";
+import { BsCart2, BsHeart } from "react-icons/bs";
 
 const Header = () => {
   return (
-    <div>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <div className="header">
+      <Navbar
+        className="py-3"
+        collapseOnSelect
+        expand="lg"
+        bg="light"
+        variant="light"
+      >
         <Container>
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+          <Navbar.Brand href="#home">
+            <div className="header-logo">
+              <img className="logo" src={logo} alt="logo" />
+            </div>
+          </Navbar.Brand>
+
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#features">Features</Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
-              <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown>
+            <Nav className="mx-auto fw-bold">
+              <Nav.Link href="/" className="text-black">HOME</Nav.Link>
+              <Nav.Link href="/blog" className="text-black">BLOG</Nav.Link>
+              <Nav.Link href="/men" className="text-black">MEN</Nav.Link>
+              <Nav.Link href="/women" className="text-black">WOMEN</Nav.Link>
+              <Nav.Link href="/kids" className="text-black">KIDS</Nav.Link>
+              <Nav.Link href="/contact" className="text-black">CONTACT</Nav.Link>
+              <Nav.Link href="/about" className="text-black">ABOUT</Nav.Link>
             </Nav>
-            <Nav>
-              <Nav.Link href="#deets">More deets</Nav.Link>
-              <Nav.Link eventKey={2} href="#memes">
-                Dank memes
+
+            <Nav className="d-flex">
+
+              <Nav.Link href="/profile">
+                <CgProfile className="header-icons"/>
               </Nav.Link>
+              <Nav.Link href="/wishlist">
+                <BsHeart className="header-icons"  />
+              </Nav.Link>
+              <Nav.Link href="/cart">
+                <BsCart2 className="header-icons" />
+              </Nav.Link>
+
             </Nav>
           </Navbar.Collapse>
         </Container>

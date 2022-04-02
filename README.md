@@ -9,4 +9,5 @@
 4. 3 types of fake data-base
 5. primary color: #000
 6. secondary color: #e91e63
+7. React Bootstrap-Icons
 
