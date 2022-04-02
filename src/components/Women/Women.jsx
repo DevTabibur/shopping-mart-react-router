@@ -1,6 +1,6 @@
 // @ts-nocheck
 import React, { useState } from "react";
-import { Button, Card, CardImg } from "react-bootstrap";
+import { Button, Card, CardImg, NavItem } from "react-bootstrap";
 import useLadies from "../../Hooks/useLadies";
 import "./Women.css";
 import { BsCart2, BsHeart } from "react-icons/bs";
@@ -9,6 +9,8 @@ const Women = () => {
   const [ladies, setLadies] = useLadies();
 
   const handleAddToCart =(lady)=>{
+    // const exists = lady.find(lady.id === item.id)
+    // console.log(exists);
     const newLadies=[...ladies, lady]
     setLadies(newLadies);
   }
@@ -32,7 +34,8 @@ const Women = () => {
 const ShowWomen = ({ lady, handleAddToCart }) => {
   
   return (
-    <div className="col-md-4 d-flex justify-content-center">
+    <>
+      <div className="col-md-4 d-flex justify-content-center">
       <Card
         className="column"
         style={{ width: "22rem", height: "27rem", marginBottom: "40px" }}
@@ -46,7 +49,8 @@ const ShowWomen = ({ lady, handleAddToCart }) => {
           <Button onClick={()=>handleAddToCart(lady)} variant="success">Add to Cart</Button>
         </Card.Body>
       </Card>
-    </div>git add 
+    </div>
+    </>
   );
 };
 
