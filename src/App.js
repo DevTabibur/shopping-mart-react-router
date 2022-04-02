@@ -9,6 +9,7 @@ import Contact from './components/Contact/Contact.jsx';
 import About from './components/About/About.jsx';
 import NotFound from "./components/NotFound/NotFound";
 import Shirt from "./components/Shirt/Shirt";
+import OrderReview from "./components/Order Review/OrderReview";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/" element={<Home/>}></Route>
         <Route path="/home" element={<Home/>}></Route>
         <Route path="/blog" element={<Blog/>}></Route>
+        <Route path="/order-review" element={<OrderReview/>}></Route>
         <Route path="/men" element={<Men/>}></Route>
         <Route path="/shirt" element={<Shirt/>}></Route>
         <Route path="/women" element={<Women/>}></Route>

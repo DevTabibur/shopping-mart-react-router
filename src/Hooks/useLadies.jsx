@@ -7,7 +7,11 @@ const useLadies = () => {
         .then(res=>res.json())
         .then(data=> setLadies(data))
     },[])
+
+    
+
     return [ladies, setLadies]
+    
 };
 
 export default useLadies;
