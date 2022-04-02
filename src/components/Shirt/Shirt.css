@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.column{
+    box-shadow: -1px 3px 26px 1px rgba(233,30,99,0.14);
+}
+.shirt-img {
+    padding: 10px;
+    height: 287px;
+    width: 100%;
+}
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }

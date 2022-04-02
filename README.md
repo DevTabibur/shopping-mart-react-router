@@ -10,4 +10,5 @@
 5. primary color: #000
 6. secondary color: #e91e63
 7. React Bootstrap-Icons
+8. Custom Hooks
 

@@ -25,6 +25,7 @@ const Header = () => {
               <Link className="header-links" to="/home">HOME</Link>
               <Link className="header-links" to="/blog">BLOG</Link>
               <Link className="header-links" to="/men">MEN</Link>
+              <Link className="header-links" to="/shirt">SHIRT</Link>
               <Link className="header-links" to="/women">WOMEN</Link>
               <Link className="header-links" to="/kids">KIDS</Link>
               <Link className="header-links" to="/contact">CONTACT</Link>
