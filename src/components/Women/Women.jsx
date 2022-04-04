@@ -1,11 +1,15 @@
 // @ts-nocheck
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { Button, Card, CardImg, NavItem } from "react-bootstrap";
 import useLadies from "../../Hooks/useLadies";
 import "./Women.css";
 import { BsCart2, BsHeart } from "react-icons/bs";
+import { MyContext } from "../../App";
 
 const Women = () => {
+  const getContextData = useContext(MyContext)
+  console.log(getContextData);
+  
   const [ladies, setLadies] = useLadies();
 
   const handleAddToCart =(lady)=>{

@@ -9,28 +9,33 @@ import Contact from './components/Contact/Contact.jsx';
 import About from './components/About/About.jsx';
 import NotFound from "./components/NotFound/NotFound";
 import Shirt from "./components/Shirt/Shirt";
-// import OrderReview from "./components/Order Review/OrderReview";
+import { createContext } from "react";
+import OrderReview from "./components/Order Review/OrderReview.jsx";
+import useKids from "./Hooks/useKids";
+export const MyContext = createContext([]);
+
+
 
 
 function App() {
+  const [kids, setKids] = useKids();
   return (
     <>
-
+    <MyContext.Provider value={[kids, setKids]}>
       <Header/>
-
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/home" element={<Home/>}></Route>
         <Route path="/blog" element={<Blog/>}></Route>
-        {/* <Route path="/order-review" element={<OrderReview/>}></Route> */}
+        
         <Route path="/men" element={<Men/>}></Route>
         <Route path="/shirt" element={<Shirt/>}></Route>
         <Route path="/women" element={<Women/>}></Route>
         <Route path="/kids" element={<Kids/>}></Route>
-        <Route path="/contact" element={<Contact/>}></Route>
-        <Route path="/about" element={<About/>}></Route>
+        <Route path="/order-review" element={<OrderReview/>}></Route>
         <Route path="*" element={<NotFound/>}></Route>
       </Routes>
+      </MyContext.Provider>
 
       
     </>
