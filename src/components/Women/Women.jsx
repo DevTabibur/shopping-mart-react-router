@@ -7,8 +7,7 @@ import { BsCart2, BsHeart } from "react-icons/bs";
 import { MyContext } from "../../App";
 
 const Women = () => {
-  const getContextData = useContext(MyContext)
-  console.log(getContextData);
+  const getContextData = useContext(MyContext);
   
   const [ladies, setLadies] = useLadies();
 

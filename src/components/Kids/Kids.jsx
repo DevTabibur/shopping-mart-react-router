@@ -23,7 +23,7 @@ const Kids = () => {
 
 const handleAddToCart = (kids) =>{
   console.log('kids', kids);
-}
+};
 
 const ShowKid = ({kid}) =>{
   // console.log('ShowKid', kid);
