@@ -7,7 +7,7 @@ import Counter from "../Counter/Counter";
 const Home = () => {
   return (
     <>
-      {/* <CarouselCard/> */}
+      <CarouselCard/>
       <Counter/>
     </>
   );
