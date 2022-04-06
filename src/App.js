@@ -39,7 +39,7 @@ function App() {
         <Route path="/order-review" element={<OrderReview/>}></Route>
         <Route path="*" element={<NotFound/>}></Route>
       </Routes>
-      <Footer/>
+      {/* <Footer/> */}
       </MyContext.Provider>
 
       

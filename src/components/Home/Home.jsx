@@ -12,7 +12,7 @@ const Home = () => {
   const sliceBlogs = blogs.slice(0, 3);
   return (
     <>
-      <CarouselCard/>
+      {/* <CarouselCard/>
       <Counter/>
       <div className="container py-5">
       <div className="row">
@@ -24,7 +24,9 @@ const Home = () => {
         />)
       }
       </div>
-    </div>
+    </div> */}
+
+    <h2>Latest products</h2>
       
       
     </>
