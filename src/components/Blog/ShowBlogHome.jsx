@@ -7,7 +7,7 @@ const ShowBlogHome = ({ blog }) => {
   return (
     <>
       <div className="col-md-4 m-0 p-0">
-        <Card style={{ width: "22rem"}}>
+        <Card className="card" style={{ width: "22rem"}}>
           <Card.Img variant="top" src={blog.imageURL} />
           <Card.Body>
             <Card.Title>
@@ -20,7 +20,7 @@ const ShowBlogHome = ({ blog }) => {
             <Button variant="secondary">read more</Button>
           </Card.Body>
         </Card>
-      </div>g
+      </div>
     </>
   );
 };

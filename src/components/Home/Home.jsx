@@ -15,9 +15,9 @@ const Home = () => {
     <>
       {/* <CarouselCard/>
       <Counter/> */}
-      <div className="container">
+      <div className="container py-5">
       <div className="row">
-      <h2>Latest From Blog</h2>
+      <h2 className="mx-auto d-flex justify-content-center mb-5">Latest From Blog</h2>
       {
         sliceBlogs.map(blog => <ShowBlogHome
           key={blog._id}
