@@ -13,6 +13,7 @@ import { createContext } from "react";
 import OrderReview from "./components/Order Review/OrderReview.jsx";
 import useKids from "./Hooks/useKids";
 import useBlogs from "./Hooks/useBlogs";
+import BlogDetails from "./components/BlogDetails/BlogDetails";
 export const MyContext = createContext([]);
 
 
@@ -28,6 +29,7 @@ function App() {
         <Route path="/" element={<Home/>}></Route>
         <Route path="/home" element={<Home/>}></Route>
         <Route path="/blog" element={<Blog/>}></Route>
+        <Route path="/blog-details/:id" element={<BlogDetails/>}></Route>
         
         <Route path="/men" element={<Men/>}></Route>
         <Route path="/shirt" element={<Shirt/>}></Route>
