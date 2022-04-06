@@ -14,6 +14,7 @@ import OrderReview from "./components/Order Review/OrderReview.jsx";
 import useKids from "./Hooks/useKids";
 import useBlogs from "./Hooks/useBlogs";
 import BlogDetails from "./components/BlogDetails/BlogDetails";
+import Footer from "./components/Footer/Footer";
 export const MyContext = createContext([]);
 
 
@@ -38,6 +39,7 @@ function App() {
         <Route path="/order-review" element={<OrderReview/>}></Route>
         <Route path="*" element={<NotFound/>}></Route>
       </Routes>
+      <Footer/>
       </MyContext.Provider>
 
       

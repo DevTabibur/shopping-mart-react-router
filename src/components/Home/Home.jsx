@@ -10,11 +10,10 @@ const Home = () => {
   
   const [blogs] = useContext(MyContext);
   const sliceBlogs = blogs.slice(0, 3);
-  console.log(sliceBlogs);
   return (
     <>
-      {/* <CarouselCard/>
-      <Counter/> */}
+      <CarouselCard/>
+      <Counter/>
       <div className="container py-5">
       <div className="row">
       <h2 className="mx-auto d-flex justify-content-center mb-5">Latest From Blog</h2>

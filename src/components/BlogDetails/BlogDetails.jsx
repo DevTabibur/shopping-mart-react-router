@@ -9,7 +9,7 @@ const BlogDetails = () => {
   console.log(id);
 
   const blog = blogs.find((blog) => blog._id == id);
-  console.log(blog);
+//   console.log(blog);
   return (
     <>
       <div className="container py-5">
