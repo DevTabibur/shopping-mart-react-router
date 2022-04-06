@@ -1,16 +1,39 @@
-import React from "react";
+import React, { useContext } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './Home.css';
 import CarouselCard from "../Carousel/CarouselCard";
 import Counter from "../Counter/Counter";
+import { MyContext } from "../../App";
+import ShowBlogHome from "../Blog/ShowBlogHome";
 
 const Home = () => {
+  
+  const [blogs] = useContext(MyContext);
+  const sliceBlogs = blogs.slice(0, 3);
+  console.log(sliceBlogs);
   return (
     <>
-      <CarouselCard/>
-      <Counter/>
+      {/* <CarouselCard/>
+      <Counter/> */}
+      <div className="container">
+      <div className="row">
+      <h2>Latest From Blog</h2>
+      {
+        sliceBlogs.map(blog => <ShowBlogHome
+          key={blog._id}
+          blog={blog}
+        />)
+      }
+      </div>
+    </div>
+      
+      
     </>
   );
 };
+
+
+
+
 
 export default Home;

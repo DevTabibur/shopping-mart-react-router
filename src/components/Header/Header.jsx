@@ -12,7 +12,7 @@ const Header = () => {
     <>
       <Navbar className="py-3 header" collapseOnSelect expand="lg">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="home">
             <div className="header-logo">
               <img className="logo" src={logo} alt="logo" />
             </div>
@@ -41,9 +41,9 @@ const Header = () => {
               <Nav.Link href="/wishlist">
                 <BsHeart className="header-icons" />
               </Nav.Link>
-              <Nav.Link href="/cart">
+              <Link to="/cart">
                 <BsCart2 className="header-icons" />
-              </Nav.Link>
+              </Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

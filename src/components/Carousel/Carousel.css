@@ -1,3 +1,19 @@
-.carousel-caption{}
-.carousel-caption h3{}
+.carousel-item{
+    background-color: #000;
+    opacity: 1;
+    z-index: -111;
+}
+.carousel-item img{
+    background-color: #000;
+    opacity: 1;
+    z-index: 111;
+}
+.carousel-caption{
+    /* z-index: 999; */
+}
+.carousel-caption h3{
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1px
+}
 .carousel-caption p{}

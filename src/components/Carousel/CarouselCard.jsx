@@ -1,12 +1,13 @@
 import React from 'react';
 import { Button, Carousel } from "react-bootstrap";
+import './Carousel.css'
 
 
 const CarouselCard = () => {
     return (
         <div>
             <Carousel>
-        <Carousel.Item>
+        <Carousel.Item className='carousel-item'>
           <img
             className="d-block w-100"
             src="https://cdn.shopify.com/s/files/1/0326/6517/4152/files/Slider_1_1950x.jpg?v=1645154694"

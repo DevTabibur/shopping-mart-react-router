@@ -12,16 +12,17 @@ import Shirt from "./components/Shirt/Shirt";
 import { createContext } from "react";
 import OrderReview from "./components/Order Review/OrderReview.jsx";
 import useKids from "./Hooks/useKids";
+import useBlogs from "./Hooks/useBlogs";
 export const MyContext = createContext([]);
 
 
 
-
 function App() {
-  const [kids, setKids] = useKids();
+  // const [kids, setKids] = useKids();
+  const [blogs, setBlogs] = useBlogs();
   return (
     <>
-    <MyContext.Provider value={[kids, setKids]}>
+    <MyContext.Provider value={[blogs, setBlogs]}>
       <Header/>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
