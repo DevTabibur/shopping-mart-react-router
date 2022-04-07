@@ -27,6 +27,9 @@ const ShowShirt = ({ shirt }) => {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+  const handleAddToCart = () => {
+    alert();
+  };
   return (
     <div className=" col-md-4 d-flex justify-content-center">
       <Card
@@ -42,19 +45,27 @@ const ShowShirt = ({ shirt }) => {
           <Button variant="primary" onClick={handleShow}>
             Add to Cart
           </Button>
+
           <Modal show={show} onHide={handleClose}>
             <Modal.Header closeButton>
-              <Modal.Title>Modal heading</Modal.Title>
+              <Modal.Title className="d-flex justify-content-center">
+                <img className="w-50 mr-2" src={shirt.image} alt="shirt__img" />
+                <h4 className="ml-3 w-50 d-flex justify-content-center align-items-center">
+                  {shirt.name}
+                </h4>
+              </Modal.Title>
             </Modal.Header>
+
             <Modal.Body>
-              Woohoo, you're reading this text in a modal!
+              <h6>Price: ${shirt.price}</h6>
             </Modal.Body>
+
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
                 Close
               </Button>
-              <Button variant="primary" onClick={handleClose}>
-                Save Changes
+              <Button variant="primary" onClick={handleAddToCart}>
+                Add to Cart
               </Button>
             </Modal.Footer>
           </Modal>
@@ -63,6 +74,5 @@ const ShowShirt = ({ shirt }) => {
     </div>
   );
 };
-
 
 export default Shirt;
