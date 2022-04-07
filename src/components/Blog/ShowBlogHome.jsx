@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Button, Card, CardImg } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import { MyContext } from "../../App";
 import "./ShowBlogHome.css";
 
 const ShowBlogHome = ({ blog }) => {
+  const [blogs] = useContext(MyContext);
 
     const navigate = useNavigate();
   return (

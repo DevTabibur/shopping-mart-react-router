@@ -95,7 +95,7 @@ class Cart extends PureComponent {
 
   updateProduct = (key, updatedProduct) => void console.log(":)");
 
-  removeProduct = key => void console.log(":C");
+  removeProduct = (key) => void console.log(":C");
 
   render() {
     const {
@@ -118,7 +118,7 @@ class Cart extends PureComponent {
       <CheckoutButtonComponent
         grandTotal={500}
         hidden={false}
-        checkoutURL="/to/my/checkout"
+        checkoutURL="#" // checkoutURL="/to/my/checkout"
         currency="GBP"
         getLocalization={getCheckoutButtonLocalization}
       />

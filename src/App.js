@@ -18,7 +18,6 @@ import Footer from "./components/Footer/Footer";
 export const MyContext = createContext([]);
 
 
-
 function App() {
   // const [kids, setKids] = useKids();
   const [blogs, setBlogs] = useBlogs();
@@ -36,7 +35,6 @@ function App() {
         <Route path="/shirt" element={<Shirt/>}></Route>
         <Route path="/women" element={<Women/>}></Route>
         <Route path="/kids" element={<Kids/>}></Route>
-        <Route path="/order-review" element={<OrderReview/>}></Route>
         <Route path="*" element={<NotFound/>}></Route>
       </Routes>
       {/* <Footer/> */}
