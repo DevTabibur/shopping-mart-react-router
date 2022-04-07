@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
-import logo from "../../images/logo.png";
+import logo from "../../../src/Assets/images/logo.png";
 import "./Header.css";
 import { CgProfile } from "react-icons/cg";
 import { BsCart2, BsHeart } from "react-icons/bs";

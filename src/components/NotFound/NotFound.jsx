@@ -1,5 +1,5 @@
 import React from 'react';
-import ErrorImg from '../../images/404.webp';
+import ErrorImg from '../../Assets/images/404.webp';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './NotFound.css';
 import { Button } from 'react-bootstrap';
