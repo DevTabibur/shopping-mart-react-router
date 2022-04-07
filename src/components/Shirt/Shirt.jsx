@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { Button, Card, CardImg, Modal } from "react-bootstrap";
 import useShirt from "../../Hooks/useShirt";
+import Cart from "../Cart/Cart";
 import "./Shirt.css";
 
 
@@ -54,11 +55,12 @@ const ShowShirt = ({ shirt }) => {
                 <h4 className="ml-3 w-50 d-flex justify-content-center align-items-center">
                   {shirt.name}
                 </h4>
+                <br/>
               </Modal.Title>
             </Modal.Header>
 
             <Modal.Body>
-              <h6>Price: ${shirt.price}</h6>
+              
             </Modal.Body>
 
             <Modal.Footer>
@@ -68,7 +70,9 @@ const ShowShirt = ({ shirt }) => {
               <Button variant="danger" onClick={handleClose}>
                 Close
               </Button>
-              
+              {/* <Cart key={shirt.id}
+                shirt={shirt}
+              /> */}
             </Modal.Footer>
           </Modal>
         </Card.Body>

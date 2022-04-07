@@ -6,6 +6,7 @@ import Counter from "../Counter/Counter";
 import { MyContext } from "../../App";
 import ShowBlogHome from "../Blog/ShowBlogHome";
 import SwiperHome from "../SwiperHome/SwiperHome";
+import Cart from "../Cart/Cart";
 
 const Home = () => {
   
@@ -13,9 +14,10 @@ const Home = () => {
   const sliceBlogs = blogs.slice(0, 3);
   return (
     <>
-      <CarouselCard/>
+      {/* <CarouselCard/>
       <Counter/>
-    <SwiperHome/>
+    <SwiperHome/> */}
+    <Cart/>
       
       
     </>
