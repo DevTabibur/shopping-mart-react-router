@@ -8,3 +8,74 @@
     width: 100%;
     height: 100%;
 }
+
+
+/* for card hover design */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* .wrapper{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+} */
+.card-box{
+    width: 280px;
+    height: 360px;
+    padding: 2rem 1rem;
+    /* background-color: #fff; */
+    position: relative;
+    /* display: flex;
+    align-items: flex-end; */
+    /* box-shadow: 0px 7px 10px rgba(0, 0, 0, .5); */
+    transition: 0.5s ease-in-out;
+}
+.card-box:hover{
+    
+    transform: translateY(-20px);
+}
+.card-box::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(to bottom, rgba(0, 176, 155, .5), rgba(150, 201, 61, 1)); */
+    background: linear-gradient(to bottom, rgba(228,1,128,0.2), rgba(233,30,99,.4));
+    z-index: 2;
+    transition: .5s all;
+    opacity: 0;
+}
+.card-box:hover::before{
+    opacity: 1;
+}
+.card-box .card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.card-box .info{
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: .5s all;
+    justify-content: center;
+    align-items: center;
+}
+.card-box:hover .info{
+    opacity: 1;
+    transform: translateY(10px);
+}
+.info-btn{
+    border-radius: 10px;
+}

@@ -8,6 +8,7 @@ import SwiperHome from "../SwiperHome/SwiperHome";
 import Cart from "../Cart/Cart";
 import ShowBlogHome from "../Blog/ShowBlogHome";
 import { Button, ButtonGroup, Card } from "react-bootstrap";
+import { AiOutlineHeart, AiFillEye, AiOutlineShoppingCart } from 'react-icons/ai';
 
 const Home = () => {
   const [products, setProducts, blogs, setBlogs, kids, setKids] =
@@ -78,19 +79,19 @@ const ShowProductHome = ({ pd }) => {
               alt=""
             />
             <div className="info">
-              <Button className="mb-5 mt-0">WishCart</Button>
-              <Button className="d-block w-75 my-3 mx-auto info-btn">
-                Quick View
+              <Button variant="danger" className="mb-5 mt-0"><AiOutlineHeart/></Button>
+              <Button variant="danger" className="d-block w-75 my-3 mx-auto info-btn">
+                View <AiFillEye/>
               </Button>
-              <Button className="d-block w-75 my-3 mx-auto info-btn">
-                Quick Shop
+              <Button variant="danger" className="d-block w-75 my-3 mx-auto info-btn">
+                Cart <AiOutlineShoppingCart/>
               </Button>
             </div>
           </div>
+          <p className="mt-3">Price: ${pd.price}</p>
         </div>
   );
 };
-
 
 
 
