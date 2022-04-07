@@ -15,15 +15,17 @@ import useKids from "./Hooks/useKids";
 import useBlogs from "./Hooks/useBlogs";
 import BlogDetails from "./components/BlogDetails/BlogDetails";
 import Footer from "./components/Footer/Footer";
+import useProduct from "./Hooks/useProduct";
 export const MyContext = createContext([]);
 
 
 function App() {
-  // const [kids, setKids] = useKids();
+  const [kids, setKids] = useKids();
   const [blogs, setBlogs] = useBlogs();
+  const [ products, setProducts] = useProduct();
   return (
     <>
-    <MyContext.Provider value={[blogs, setBlogs]}>
+    <MyContext.Provider value={[products, setProducts, blogs, setBlogs,  kids, setKids]}>
       <Header/>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
