@@ -4,6 +4,7 @@ import { Button, Card, CardImg, Modal } from "react-bootstrap";
 import useShirt from "../../Hooks/useShirt";
 import "./Shirt.css";
 
+
 const Shirt = () => {
   const [shirts, setShirts] = useShirt();
   return (
@@ -46,8 +47,8 @@ const ShowShirt = ({ shirt }) => {
             Add to Cart
           </Button>
 
-          <Modal show={show} onHide={handleClose}>
-            <Modal.Header closeButton>
+          <Modal size="lg" show={show} onHide={handleClose}>
+            <Modal.Header>
               <Modal.Title className="d-flex justify-content-center">
                 <img className="w-50 mr-2" src={shirt.image} alt="shirt__img" />
                 <h4 className="ml-3 w-50 d-flex justify-content-center align-items-center">
@@ -61,12 +62,13 @@ const ShowShirt = ({ shirt }) => {
             </Modal.Body>
 
             <Modal.Footer>
-              <Button variant="secondary" onClick={handleClose}>
-                Close
-              </Button>
-              <Button variant="primary" onClick={handleAddToCart}>
+            <Button variant="primary" onClick={handleAddToCart}>
                 Add to Cart
               </Button>
+              <Button variant="danger" onClick={handleClose}>
+                Close
+              </Button>
+              
             </Modal.Footer>
           </Modal>
         </Card.Body>
