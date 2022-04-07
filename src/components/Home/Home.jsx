@@ -14,7 +14,10 @@ const Home = () => {
     useContext(MyContext);
   const sliceProducts = products.slice(0, 8);
   const sliceBlogs = blogs.slice(0, 3);
-  console.log(sliceBlogs);
+
+  const overview = ()=>{
+    alert()
+  }
 
   return (
     <>
@@ -40,7 +43,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Blogs on Home */}
+      
       <div className="container my-5">
         <div className="row">
         <div className="section-title d-flex justify-content-center my-4">
@@ -83,13 +86,6 @@ const ShowProductHome = ({ pd }) => {
 };
 
 
-// const ShowBlogHome = ({blog}) => {
-//   return (
-//     <div>
-      
-//     </div>
-//   );
-// };
 
 
 export default Home;
