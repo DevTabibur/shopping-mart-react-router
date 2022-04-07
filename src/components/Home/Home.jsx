@@ -9,6 +9,7 @@ import Cart from "../Cart/Cart";
 import ShowBlogHome from "../Blog/ShowBlogHome";
 import { Button, ButtonGroup, Card } from "react-bootstrap";
 import { AiOutlineHeart, AiFillEye, AiOutlineShoppingCart } from 'react-icons/ai';
+import BannerBottom from "../BannerBottom/BannerBottom";
 
 const Home = () => {
   const [products, setProducts, blogs, setBlogs, kids, setKids] =
@@ -23,8 +24,9 @@ const Home = () => {
   return (
     <>
       <CarouselCard />
+      <BannerBottom/>
       <Counter />
-      <SwiperHome />
+      {/* <SwiperHome /> */}
 
       <div className="container  pb-5">
         <div className="row gx-5 gy-3">
