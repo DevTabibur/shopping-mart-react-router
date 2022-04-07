@@ -15,4 +15,5 @@
 10. Swiper js
 11. React B5 Modal
 12. React-Shopping-Cart
+13. react-side-bar(npm)
 
