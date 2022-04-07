@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "baby-dress-1",
+        "price": 58,
+        "image": "https://i.ibb.co/dDydDhq/boys-kids.jpg"
+    },
+    {
+        "id": 2,
+        "name": "baby-dress-2",
+        "price": 58,
+        "image": "https://i.ibb.co/VqLfWWL/boys-kids-1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "girls-3",
+        "price": 200,
+        "image": "https://i.ibb.co/S0GwsZ2/five-hundred-girls-3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "girls-4",
+        "price": 200,
+        "image": "https://i.ibb.co/xX9KMYJ/five-hundred-girls-4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "t-shirt-7",
+        "price": 120,
+        "image": "https://i.ibb.co/6Wq9XdX/t-shirt-7.webp"
+    },
+    {
+        "id": 6,
+        "name": "t-shirt-8",
+        "price": 120,
+        "image": "https://i.ibb.co/2NDYvHT/t-shirt-8.webp"
+    },
+    {
+        "id": 7,
+        "name": "men-shirt-7",
+        "price": 257,
+        "image": "https://i.ibb.co/1KgdkfJ/two-hundred.jpg"
+    },
+    {
+        "id": 8,
+        "name": "men-shirt-8",
+        "price": 257,
+        "image": "https://i.ibb.co/Bqp9KrT/four-hundred-men.jpg"
+    }
+]

@@ -13,7 +13,9 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.my-swiper{
+    background-color: #f5f7ff;
+}
 .swiper {
   width: 100%;
   padding-top: 50px;
@@ -23,11 +25,11 @@ body {
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
 }
 
 .swiper-slide img {
   display: block;
-  width: 100%;
+  width: 70%;
 }

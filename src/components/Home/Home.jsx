@@ -5,7 +5,7 @@ import CarouselCard from "../Carousel/CarouselCard";
 import Counter from "../Counter/Counter";
 import { MyContext } from "../../App";
 import ShowBlogHome from "../Blog/ShowBlogHome";
-import SwiperHome from "../Swiper/Swiper";
+import SwiperHome from "../SwiperHome/SwiperHome";
 
 const Home = () => {
   
@@ -27,7 +27,7 @@ const Home = () => {
       </div>
     </div> */}
 
-    <h2>Latest products</h2>
+    
     <SwiperHome/>
       
       
