@@ -1,0 +1,359 @@
+[
+    {
+        "id": 1,
+        "name": "t-shirt-3",
+        "price": 120,
+        "image": "https://i.ibb.co/XsxvXSJ/t-shirt-3.webp"
+    },
+    {
+        "id": 2,
+        "name": "t-shirt-15",
+        "price": 120,
+        "image": "https://i.ibb.co/fkQxXDZ/t-shirt-15.webp"
+    },
+    {
+        "id": 3,
+        "name": "t-shirt-4",
+        "price": 120,
+        "image": "https://i.ibb.co/0j60bcf/t-shirt-4.webp"
+    },
+    {
+        "id": 4,
+        "name": "t-shirt-6",
+        "price": 120,
+        "image": "https://i.ibb.co/vZdf8bD/t-shirt-6.webp"
+    },
+    {
+        "id": 5,
+        "name": "t-shirt-7",
+        "price": 120,
+        "image": "https://i.ibb.co/6Wq9XdX/t-shirt-7.webp"
+    },
+    {
+        "id": 6,
+        "name": "t-shirt-8",
+        "price": 120,
+        "image": "https://i.ibb.co/2NDYvHT/t-shirt-8.webp"
+    },
+    {
+        "id": 7,
+        "name": "t-shirt-21",
+        "price": 120,
+        "image": "https://i.ibb.co/LRW9tS9/t-shirt-21.webp"
+    },
+    {
+        "id": 8,
+        "name": "t-shirt-12",
+        "price": 120,
+        "image": "https://i.ibb.co/3f2Mj0Y/t-shirt-12.webp"
+    },
+    {
+        "id": 9,
+        "name": "t-shirt-25",
+        "price": 120,
+        "image": "https://i.ibb.co/M2wWYTN/t-shirt-25.webp"
+    },
+    {
+        "id": 10,
+        "name": "t-shirt-18",
+        "price": 120,
+        "image": "https://i.ibb.co/DwWn5pK/t-shirt-18.webp"
+    },
+    {
+        "id": 11,
+        "name": "baby-dress-1",
+        "price": 58,
+        "image": "https://i.ibb.co/dDydDhq/boys-kids.jpg"
+    },
+    {
+        "id": 12,
+        "name": "baby-dress-2",
+        "price": 58,
+        "image": "https://i.ibb.co/VqLfWWL/boys-kids-1.jpg"
+    },
+    {
+        "id": 13,
+        "name": "baby-dress-3",
+        "price": 58,
+        "image": "https://i.ibb.co/3Tb4RmY/girl-2.jpg"
+    },
+    {
+        "id": 14,
+        "name": "baby-dress-4",
+        "price": 58,
+        "image": "https://i.ibb.co/LtTqWXc/kids.jpg"
+    },
+    {
+        "id": 15,
+        "name": "baby-dress-5",
+        "price": 58,
+        "image": "https://i.ibb.co/9s1dpcg/kids-dress.jpg"
+    },
+    {
+        "id": 16,
+        "name": "baby-dress-6",
+        "price": 58,
+        "image": "https://i.ibb.co/P9Ty6MR/two-hundred-girls-2.jpg"
+    },
+    {
+        "id": 17,
+        "name": "baby-dress-7",
+        "price": 58,
+        "image": "https://i.ibb.co/vkvLFxN/two-hundred-girls-1.jpg"
+    },
+    {
+        "id": 18,
+        "name": "baby-dress-8",
+        "price": 58,
+        "image": "https://i.ibb.co/8NHKDDc/two-hundred-girls.jpg"
+    },
+    {
+        "id": 19,
+        "name": "baby-dress-9",
+        "price": 58,
+        "image": "https://i.ibb.co/n3sCzSw/four-hundred-boys-1.jpg"
+    },
+    {
+        "id": 20,
+        "name": "baby-dress-10",
+        "price": 58,
+        "image": "https://i.ibb.co/r56x8cT/boys-dress-2.jpg"
+    },
+    {
+        "id": 21,
+        "name": "girls-1",
+        "price": 200,
+        "image": "https://i.ibb.co/JFS4jb2/five-hundred-girls-1.jpg"
+    },
+    {
+        "id": 22,
+        "name": "girls-2",
+        "price": 200,
+        "image": "https://i.ibb.co/XzQMLdT/five-hundred-girls-2.jpg"
+    },
+    {
+        "id": 23,
+        "name": "girls-3",
+        "price": 200,
+        "image": "https://i.ibb.co/S0GwsZ2/five-hundred-girls-3.jpg"
+    },
+    {
+        "id": 24,
+        "name": "girls-4",
+        "price": 200,
+        "image": "https://i.ibb.co/xX9KMYJ/five-hundred-girls-4.jpg"
+    },
+    {
+        "id": 25,
+        "name": "girls-5",
+        "price": 200,
+        "image": "https://i.ibb.co/vdJXr63/five-hundred-ladies.jpg"
+    },
+    {
+        "id": 26,
+        "name": "girls-6",
+        "price": 200,
+        "image": "https://i.ibb.co/wwdNwJR/five-hundred-girls.jpg"
+    },
+    {
+        "id": 27,
+        "name": "girls-7",
+        "price": 200,
+        "image": "https://i.ibb.co/jgVTxDZ/ladies-dress-4.jpg"
+    },
+    {
+        "id": 28,
+        "name": "girls-8",
+        "price": 200,
+        "image": "https://i.ibb.co/kSMRmrN/ladies-dress-3.jpg"
+    },
+    {
+        "id": 29,
+        "name": "girls-9",
+        "price": 200,
+        "image": "https://i.ibb.co/wBrTvGc/ladies-dress-2.jpg"
+    },
+    {
+        "id": 30,
+        "name": "girls-10",
+        "price": 200,
+        "image": "https://i.ibb.co/ZND5JNK/ladies-dress-1.jpg"
+    },
+    {
+        "id": 31,
+        "name": "men-shirt-1",
+        "price": 257,
+        "image": "https://i.ibb.co/w7NX1TM/three-hundred-men.jpg"
+    },
+    {
+        "id": 32,
+        "name": "men-shirt-2",
+        "price": 257,
+        "image": "https://i.ibb.co/hR7k0zN/three-hundred-men-1.jpg"
+    },
+    {
+        "id": 33,
+        "name": "men-shirt-3",
+        "price": 257,
+        "image": "https://i.ibb.co/ZHrC5Hd/three-hundred-men-2.jpg"
+    },
+    {
+        "id": 34,
+        "name": "men-shirt-4",
+        "price": 257,
+        "image": "https://i.ibb.co/3pK2YYH/three-hundred-men-4.jpg"
+    },
+    {
+        "id": 35,
+        "name": "men-shirt-5",
+        "price": 257,
+        "image": "https://i.ibb.co/RTySqdV/three-hundred-men-6.jpg"
+    },
+    {
+        "id": 36,
+        "name": "men-shirt-6",
+        "price": 257,
+        "image": "https://i.ibb.co/yFWb9Hd/three-hundred-men-5.jpg"
+    },
+    {
+        "id": 37,
+        "name": "men-shirt-7",
+        "price": 257,
+        "image": "https://i.ibb.co/1KgdkfJ/two-hundred.jpg"
+    },
+    {
+        "id": 38,
+        "name": "men-shirt-8",
+        "price": 257,
+        "image": "https://i.ibb.co/Bqp9KrT/four-hundred-men.jpg"
+    },
+    {
+        "id": 39,
+        "name": "men-shirt-9",
+        "price": 257,
+        "image": "https://i.ibb.co/yVHMnqL/four-hundred-men-1.jpg"
+    },
+    {
+        "id": 40,
+        "name": "men-shirt-10",
+        "price": 257,
+        "image": "https://i.ibb.co/2yqkQwW/four-hundred-men-3.jpg"
+    },
+    {
+      "id": 41,
+      "category": "Men's Sneaker",
+      "name": "ULTRABOOST 22 SHOES",
+      "seller": "Addidas",
+      "price": 420,
+      "stock": 20,
+      "ratings": 4,
+      "ratingsCount": 3725,
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+      "shipping": 1,
+      "quantity": 0
+    },
+    {
+      "id": 42,
+      "category": "Men's Sneaker",
+      "name": "LUNAR NEW YEAR ULTRABOOST DNA SHOES",
+      "seller": "Addidas",
+      "price": 196,
+      "stock": 19,
+      "ratings": 5,
+      "ratingsCount": 4355,
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2cee64414e1f4f31baf1ae270099d950_9366/Lunar_New_Year_Ultraboost_DNA_Shoes_Black_GZ6074_01_standard.jpg",
+      "shipping": 14,
+      "quantity": 0
+    },
+    {
+      "id": 43,
+      "category": "Men's Sneaker",
+      "name": "SUPERNOVA SHOES",
+      "seller": "Addidas",
+      "price": 245,
+      "stock": 20,
+      "ratings": 4,
+      "ratingsCount": 3972,
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/69cbc73d0cb846889f89acbb011e68cb_9366/Supernova_Shoes_Black_S42722_01_standard.jpg",
+      "shipping": 1,
+      "quantity": 0
+    },
+    {
+      "id": 44,
+      "category": "Men's Sneaker",
+      "name": "LITE RACER ADAPT 3.0 SHOES",
+      "seller": "Addidas",
+      "price": 229,
+      "stock": 10,
+      "ratings": 5,
+      "ratingsCount": 1764,
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/96a5f085fedf4e678095abad01056711_9366/Lite_Racer_Adapt_3.0_Shoes_Black_FX8802_01_standard.jpg",
+      "shipping": 32,
+      "quantity": 0
+    },
+    {
+      "id": 45,
+      "category": "Men's Sneaker",
+      "name": "4DFWD SHOES",
+      "seller": "Addidas",
+      "price": 287,
+      "stock": 11,
+      "ratings": 4,
+      "ratingsCount": 799,
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8c5d1994dfd343e28567ad4400dd351d_9366/4DFWD_Shoes_Black_Q46447_01_standard.jpg",
+      "shipping": 49,
+      "quantity": 0
+    },
+    {
+      "id": 46,
+      "category": "Men's Sneaker",
+      "name": "KAPTIR 2.0 SHOES",
+      "seller": "Addidas",
+      "price": 138,
+      "stock": 19,
+      "ratings": 3,
+      "ratingsCount": 4372,
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0846e90b15144861b33dacf500e3cfd1_9366/Kaptir_2.0_Shoes_White_H00276_01_standard.jpg",
+      "shipping": 19,
+      "quantity": 0
+    },
+    {
+      "id": 47,
+      "category": "Men's Sneaker",
+      "name": "4DFWD PULSE SHOES",
+      "seller": "Addidas",
+      "price": 226,
+      "stock": 1,
+      "ratings": 4,
+      "ratingsCount": 2870,
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9a8256bb7ca34da49ff8ad5600bb2812_9366/4DFWD_Pulse_Shoes_White_Q46221_01_standard.jpg",
+      "shipping": 15,
+      "quantity": 0
+    },
+    {
+      "id": 48,
+      "category": "Men's Sneaker",
+      "name": "ZX 1K BOOST SHOES",
+      "seller": "Addidas",
+      "price": 319,
+      "stock": 7,
+      "ratings": 4,
+      "ratingsCount": 1360,
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0e540bae86d5456aa034ada300ebf46c_9366/ZX_1K_Boost_Shoes_Grey_H00430_01_standard.jpg",
+      "shipping": 50,
+      "quantity": 0
+    },
+    {
+      "id": 49,
+      "category": "Men's Sneaker",
+      "name": "NMD_R1 V2 SHOES",
+      "seller": "Addidas",
+      "price": 260,
+      "stock": 4,
+      "ratings": 5,
+      "ratingsCount": 1976,
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c2a18c4e3f104d52a697ad6a01477bb7_9366/NMD_R1_V2_Shoes_Black_GX6367_01_standard.jpg",
+      "shipping": 46,
+      "quantity": 0
+    }
+]

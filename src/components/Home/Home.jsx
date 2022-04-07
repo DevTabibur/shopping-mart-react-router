@@ -7,18 +7,18 @@ import { MyContext } from "../../App";
 import SwiperHome from "../SwiperHome/SwiperHome";
 import Cart from "../Cart/Cart";
 import ShowBlogHome from '../Blog/ShowBlogHome';
-import Toast from "../Toast/Toast";
 
 const Home = () => {
   const [blogs] = useContext(MyContext);
   return (
     <>
-      <CarouselCard />
+      {/* <CarouselCard />
       <Counter />
-      <SwiperHome />
-      {/* <ShowBlogHome blog={blogs}/> */}
+      <SwiperHome /> */}
     </>
   );
 };
+
+
 
 export default Home;
