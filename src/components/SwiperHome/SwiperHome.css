@@ -12,9 +12,9 @@ body {
   color: #000;
   margin: 0;
   padding: 0;
+  background-color: #f5f7ff;
 }
-.my-swiper{
-    background-color: #f5f7ff;
+.swiper-bg{
 }
 .swiper {
   width: 100%;
@@ -26,10 +26,19 @@ body {
   background-position: center;
   background-size: cover;
   width: 500px;
-  height: 500px;
+  height: 430px;
+  border-radius: 10px;
 }
-
+.swiper-slide-parent{
+  background-color: #e91e6213;
+  border-radius: 10px;
+  padding: 20px;
+}
 .swiper-slide img {
+  background-color: #ffffff;
+  position: relative;
   display: block;
-  width: 70%;
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
 }
