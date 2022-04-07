@@ -26,7 +26,7 @@ const Home = () => {
       <SwiperHome />
 
       <div className="container  pb-5">
-        <div className="row">
+        <div className="row gx-5 gy-3">
           <div className="section-title d-flex justify-content-center my-4">
             <h2>Latest Products</h2>
             <p>
@@ -70,18 +70,24 @@ const Home = () => {
 
 const ShowProductHome = ({ pd }) => {
   return (
-    <div className="col-md-3 gy-4 d-flex justify-content-center">
-      <Card style={{width: "16rem"}}>
-        <Card.Img variant="top" src={pd.image} />
-        <Card.Body>
-          <Card.Title>{pd.name}</Card.Title>
-          <Card.Text>
-            price: ${pd.price}
-          </Card.Text>
-          <Button className="w-100" variant="success">SHOW</Button>
-        </Card.Body>
-      </Card>
-    </div>
+    <div className="col-md-3">
+          <div className="card-box">
+            <img
+              className="card-img"
+              src={pd.image}
+              alt=""
+            />
+            <div className="info">
+              <Button className="mb-5 mt-0">WishCart</Button>
+              <Button className="d-block w-75 my-3 mx-auto info-btn">
+                Quick View
+              </Button>
+              <Button className="d-block w-75 my-3 mx-auto info-btn">
+                Quick Shop
+              </Button>
+            </div>
+          </div>
+        </div>
   );
 };
 
