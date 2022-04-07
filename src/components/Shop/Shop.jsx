@@ -4,12 +4,13 @@ import React, { useContext } from 'react';
 import { useNavigate, useParams } from "react-router-dom";
 import { MyContext } from "../../App";
 
-const OrderReview = () => {
+const Shop = () => {
+    const [products, setProducts, blogs, setBlogs,  kids, setKids] = useContext(MyContext);
     return (
         <div>
-            <h2>Order Review Page</h2>
+            <h2>Shop Page{products.length}</h2>
         </div>
     );
 };
 
-export default OrderReview;
+export default Shop;

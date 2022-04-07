@@ -24,13 +24,10 @@ const Header = () => {
             <Nav className="mx-auto fw-bold">
               <Link className="header-links" to="/home">HOME</Link>
               <Link className="header-links" to="/blog">BLOG</Link>
-              <Link className="header-links" to="/men">MEN</Link>
-              <Link className="header-links" to="/shirt">SHIRT</Link>
-              <Link className="header-links" to="/women">WOMEN</Link>
-              <Link className="header-links" to="/kids">KIDS</Link>
-              {/* <Link className="header-links" to="/contact">CONTACT</Link>
-              <Link className="header-links" to="/about">ABOUT</Link> */}
-              <Link className="header-links" to="/order-review">ORDER</Link>
+              <Link className="header-links" to="/shop">SHOP</Link>
+              <Link className="header-links" to="/contact">CONTACT</Link>
+              <Link className="header-links" to="/about">ABOUT</Link>
+              
 
             </Nav>
 

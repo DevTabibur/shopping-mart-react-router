@@ -1,9 +1,9 @@
 import React, { useContext, useState } from 'react';
 import { Button, Card } from 'react-bootstrap';
 import { MyContext } from '../../App';
-import './Kids.css'
+import './ShowMoreProduct.css'
 
-const Kids = () => {
+const ShowMoreProduct = () => {
   const [kids] = useContext(MyContext);
   // console.log('kids', kids);
 
@@ -43,4 +43,4 @@ const ShowKid = ({kid}) =>{
 
 }
 
-export default Kids;
+export default ShowMoreProduct;

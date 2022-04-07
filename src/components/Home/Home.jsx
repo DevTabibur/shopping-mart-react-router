@@ -13,12 +13,15 @@ const Home = () => {
   const [products, setProducts, blogs, setBlogs, kids, setKids] =
     useContext(MyContext);
   const sliceProducts = products.slice(0, 8);
+  const sliceBlogs = blogs.slice(0, 3);
+  console.log(sliceBlogs);
 
   return (
     <>
-      {/* <CarouselCard />
+      <CarouselCard />
       <Counter />
-      <SwiperHome /> */}
+      <SwiperHome />
+
       <div className="container  pb-5">
         <div className="row">
           <div className="section-title d-flex justify-content-center my-4">
@@ -34,6 +37,28 @@ const Home = () => {
             <ShowProductHome key={pd.id} pd={pd} />
           ))}
           <Button className="my-5 w-50 mx-auto" variant="success">Load More</Button>
+        </div>
+      </div>
+
+      {/* Blogs on Home */}
+      <div className="container my-5">
+        <div className="row">
+        <div className="section-title d-flex justify-content-center my-4">
+            <h2>Latest News</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+              dolor quibusdam veritatis nihil possimus soluta aliquid modi omnis
+              vel quis.
+            </p>
+          </div>
+          {
+            sliceBlogs.map(blog => 
+            <ShowBlogHome
+              key={blog._id}
+              blog={blog}
+            />
+            )
+          }
         </div>
       </div>
     </>
@@ -56,5 +81,15 @@ const ShowProductHome = ({ pd }) => {
     </div>
   );
 };
+
+
+// const ShowBlogHome = ({blog}) => {
+//   return (
+//     <div>
+      
+//     </div>
+//   );
+// };
+
 
 export default Home;
