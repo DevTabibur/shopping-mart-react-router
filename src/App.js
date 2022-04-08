@@ -17,6 +17,7 @@ import BlogDetails from "./components/BlogDetails/BlogDetails";
 import Footer from "./components/Footer/Footer";
 import useProduct from "./Hooks/useProduct";
 import Shop from "./components/Shop/Shop.jsx";
+import Login from "./components/Login/Login";
 export const MyContext = createContext([]);
 
 
@@ -35,6 +36,8 @@ function App() {
         <Route path="/blog-details/:id" element={<BlogDetails/>}></Route>
         <Route path="/shop" element={<Shop/>}></Route>
         <Route path="/about" element={<About/>}></Route>
+        <Route path="/login" element={<Login/>}></Route>
+        <Route path="/signup" element={<About/>}></Route>
         <Route path="*" element={<NotFound/>}></Route>
       </Routes>
       <Footer/>
