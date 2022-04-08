@@ -14,6 +14,6 @@
 9. [React count down timer hook](https://www.npmjs.com/package/reactjs-countdown-hook)
 10. Swiper js
 11. React B5 Modal
-12. React-Shopping-Cart
-13. 
+<!-- 12. React-Shopping-Cart -->
+13. Firebase
 
