@@ -27,13 +27,12 @@ const Header = () => {
               <Link className="header-links" to="/shop">SHOP</Link>
               <Link className="header-links" to="/contact">CONTACT</Link>
               <Link className="header-links" to="/about">ABOUT</Link>
-              <Link className="header-links" to="/login">LOGIN</Link>
               
 
             </Nav>
 
             <Nav className="d-flex">
-              <Nav.Link href="/profile">
+              <Nav.Link href="/login">
                 <CgProfile className="header-icons" />
               </Nav.Link>
               <Nav.Link href="/wishlist">
