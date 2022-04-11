@@ -21,6 +21,12 @@
     color: #000;
     transition: .5s;
 }
+.header-icons-login-img{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
 .header-icons:hover{
     color: #e91e63;
 
